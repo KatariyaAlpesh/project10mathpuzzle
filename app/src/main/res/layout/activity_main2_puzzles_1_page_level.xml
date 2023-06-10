@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:id="@+id/relativeLayoutPuzzle">
+
+        <ImageView
+            android:src="@drawable/lock"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:id="@+id/puzzleLevelsImage"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/puzzleLevelsText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:fontFamily="@font/chalk"
+            android:text="1"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_centerInParent="true"/>
+
+</RelativeLayout>

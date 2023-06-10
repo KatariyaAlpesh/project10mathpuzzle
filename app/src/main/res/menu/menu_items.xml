@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--  Add icon through right click on app folder -> new image asset  -->
+
+    <item
+        android:id="@+id/menu_download"
+        android:icon="@drawable/menu_download"
+        android:title="Download" />
+
+    <item
+        android:id="@+id/menu_share"
+        android:icon="@drawable/menu_share"
+        android:title="Share" />
+
+    <item
+        android:id="@+id/menu_exit"
+        android:icon="@drawable/menu_exit"
+        android:title="Exit" />
+</menu>
